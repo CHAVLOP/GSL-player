@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -15,21 +16,11 @@
         android:theme="@style/Theme.GSLPlayer"
         tools:targetApi="31">
         <activity
-            android:name=".CargarMusica"
-            android:exported="false" />
-        <activity
             android:name=".Reproductor"
             android:exported="false" />
         <activity
             android:name=".Menus"
             android:exported="false" />
-        <activity
-            android:name=".Subir"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
         <activity
             android:name=".Favoritos"
             android:exported="false">
@@ -46,13 +37,6 @@
         </activity>
         <activity
             android:name=".Bienvenido"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".Menu"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

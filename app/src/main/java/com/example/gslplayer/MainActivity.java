@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
                 String personId = acct.getId();
                 Uri personPhoto = acct.getPhotoUrl();
             }
-            startActivity(new Intent(MainActivity.this, Menu.class));
+            startActivity(new Intent(MainActivity.this, Menus.class));
 
         } catch (ApiException e) {
 
@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
                                     for (QueryDocumentSnapshot document : task.getResult()) {
                                         Log.d(TAG, document.getId() + " => " + document.getData());
                                         System.out.println(document.getId() + " => " + document.getData());
-                                        startActivity(new Intent(MainActivity.this, Menu.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                                        startActivity(new Intent(MainActivity.this, Menus.class));
                                     }
                                 } else {
                                     Toast.makeText(MainActivity.this, "Contraseña y/o correo no coinciden", Toast.LENGTH_LONG).show();

@@ -54,8 +54,7 @@ public class ProfileFragment extends Fragment {
         lottieAnimationView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), CargarMusica.class);
-                startActivity(intent);
+
 
             }
         });

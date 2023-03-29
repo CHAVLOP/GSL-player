@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "324707681452",
+    "firebase_url": "https://gsl-player-default-rtdb.firebaseio.com",
+    "project_id": "gsl-player",
+    "storage_bucket": "gsl-player.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324707681452:android:c99ebbfe04ec59b2d20b09",
+        "android_client_info": {
+          "package_name": "com.example.gslplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324707681452-l4trn40fvlh0qjcb5qns8cl0gi2fuht4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx7qya_lhL9uA8BpzKUXCq1sPApgucNH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324707681452-l4trn40fvlh0qjcb5qns8cl0gi2fuht4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">GSL Player</string>
+    <string name="iniciar">Iniciar Sesion</string>
+    <string name="registrate">Registrarse</string>
+    <string name="correo">Correo electronico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="sesion">Inicia Sesion</string>
+    <string name="ayuda">Nesesitas ayuda??</string>
+    <string name="click">Clik Here</string>
+    <string name="olvide">Olvide mi contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="Notengo">No tienes una cuenta??</string>
+    <string name="cuenta">Crear Cuenta</string>
+    <string name="nombre">Nombre de usuario</string>
+    <string name="ingresar">Ya tienes una cuenta??</string>
+    <string name="entrarS">Iniciar sesion</string>
+
+
+    <string name="mensaje">Desde el fin del mundo</string>
+    <string name="nuevoAlbun">New albun</string>
+    <string name="Artista">Duki</string>
+    <string name="home">Inicio</string>
+    <string name="explorer">Explorar</string>
+    <string name="Like">Favoritos</string>
+    <string name="perfil">Perfil</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">explorar</string>
+    <string name="title_notifications">Favoritos</string>
+    <string name="agregado">Exclusivos para ti</string>
+    <string name="list">Mis favoritas</string>
+    <string name="segui">Likes recibidos</string>
+    <string name="favo">Tus Favoritas</string>
+    <string name="subidas">Tus canciones subidas</string>
+    <string name="nueva">Subir archivo</string>
+    <string name="salir">Salir</string>
+    <string name="artistas">Nuevos Artistas</string>
+    <string name="peso">Peso pluma</string>
+    <string name="mexico">Mexico</string>
+    <string name="maria">Maria Becerra</string>
+    <string name="arge">Argentina</string>
+    <string name="quevedo">Quevedo</string>
+    <string name="soge">Soge Culebra</string>
+    <string name="españa">España</string>
+    <string name="junior">Junior H</string>
+    <string name="arca">Arcangel</string>
+    <string name="puerto">Puerto Rico</string>
+
+
+    <string name="rellena">Rellena todos los campos</string>
+    <string name="tema">Nombre del tema</string>
+    <string name="tiempo">Duraccion en minutos</string>
+    <string name="ArtistaM">Nombre del artista</string>
+    <string name="archivo">Seleccionar archivo</string>
+    <string name="subir">Publicar</string>
+    <string name="volver">Volver</string>
+    <string name="repro">Reproduciendo</string>
+
+
+</resources>

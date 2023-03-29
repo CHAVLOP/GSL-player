@@ -21,7 +21,7 @@ public class Favoritos extends AppCompatActivity {
         volver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Favoritos.this, Menu.class);
+                Intent intent = new Intent(Favoritos.this, Menus.class);
                 startActivity(intent);
                 finish();
             }

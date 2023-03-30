@@ -40,4 +40,8 @@ public class Bienvenido extends AppCompatActivity {
 
 
     }
+    @Override
+    public void onBackPressed() {
+        // No hacer nada
+    }
 }

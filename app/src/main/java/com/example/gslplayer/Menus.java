@@ -2,13 +2,10 @@ package com.example.gslplayer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.ContentUris;
 import android.content.Intent;
-import android.database.Cursor;
-import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
-import android.provider.MediaStore;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -16,18 +13,32 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.airbnb.lottie.LottieAnimationView;
+
 import java.io.File;
 import java.util.ArrayList;
 
 public class Menus extends AppCompatActivity {
     String[] items;
     ListView listView;
+    LottieAnimationView perfiles;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menus);
         listView = findViewById(R.id.lista);
+        perfiles = findViewById(R.id.perfiles);
+
+
+
+
+        perfiles.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Menus.this,Perfil.class));
+            }
+        });
 
         File musicFolder = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/Download");
         ArrayList<File> audioList = findingSong(musicFolder);
@@ -92,12 +103,16 @@ public class Menus extends AppCompatActivity {
 
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
-            View myView = getLayoutInflater().inflate(R.layout.activity_menus, null);
-            TextView textsong = myView.findViewById(R.id.textExample);
+            View myView = getLayoutInflater().inflate(R.layout.cards, null);
+            TextView textsong = myView.findViewById(R.id.Tema);
             textsong.setSelected(true);
             textsong.setText(items[i]);
             return myView;
         }
 
+    }
+    @Override
+    public void onBackPressed() {
+        // No hacer nada
     }
 }

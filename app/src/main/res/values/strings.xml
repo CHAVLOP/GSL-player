@@ -35,7 +35,7 @@
     <string name="subidas">Tus canciones subidas</string>
     <string name="nueva">Subir archivo</string>
     <string name="salir">Salir</string>
-    <string name="artistas">Nuevos Artistas</string>
+    <string name="artistas">Tus canciones</string>
     <string name="peso">Peso pluma</string>
     <string name="mexico">Mexico</string>
     <string name="maria">Maria Becerra</string>
@@ -48,10 +48,10 @@
     <string name="puerto">Puerto Rico</string>
 
 
-    <string name="rellena">Rellena todos los campos</string>
+    <string name="rellena">Datos de tu perfil</string>
     <string name="tema">Nombre del tema</string>
-    <string name="tiempo">Duraccion en minutos</string>
-    <string name="ArtistaM">Nombre del artista</string>
+    <string name="usuario">Usuario</string>
+    <string name="email">Correo Electronico</string>
     <string name="archivo">Seleccionar archivo</string>
     <string name="subir">Publicar</string>
     <string name="volver">Volver</string>

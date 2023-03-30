@@ -38,7 +38,7 @@
         app:lottie_loop="true" />
 
     <Button
-        android:id="@+id/btnentrar"
+        android:id="@+id/btnsalir"
         android:layout_width="366dp"
         android:layout_height="70dp"
         android:backgroundTint="#EC0FFF"

@@ -49,7 +49,7 @@ public class Registro extends AppCompatActivity {
         eEmail = findViewById(R.id.etEmail);
         eName = findViewById(R.id.etUsuario);
         ePassoword = findViewById(R.id.etContra);
-        login = findViewById(R.id.btnentrar);
+        login = findViewById(R.id.btnsalir);
         ver = findViewById(R.id.ver);
 
         ver.setOnClickListener(new View.OnClickListener() {

@@ -9,19 +9,7 @@
     tools:context=".Reproductor">
 
     <ImageView
-        android:id="@+id/imageView34"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.029"
-        app:srcCompat="@drawable/settings" />
-
-    <ImageView
-        android:id="@+id/imageView33"
+        android:id="@+id/volver"
         android:layout_width="20dp"
         android:layout_height="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,7 +45,7 @@
             app:layout_constraintVertical_bias="0.028"
             app:lottie_autoPlay="true"
             app:lottie_cacheComposition="true"
-            app:lottie_fileName="players.json"
+            app:lottie_fileName="bocinas.json"
             app:lottie_imageAssetsFolder="assets"
             app:lottie_loop="true" />
 
@@ -92,7 +80,7 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.651" />
@@ -158,7 +146,7 @@
         app:srcCompat="@drawable/elipse" />
 
     <ImageView
-        android:id="@+id/imageView31"
+        android:id="@+id/pause"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -170,7 +158,7 @@
         app:srcCompat="@drawable/pause" />
 
     <ImageView
-        android:id="@+id/imageView32"
+        android:id="@+id/repet"
         android:layout_width="30dp"
         android:layout_height="30dp"
         app:layout_constraintBottom_toBottomOf="parent"

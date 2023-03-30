@@ -14,7 +14,6 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/satoshibold"
         android:text="Bienvenido a GSL Music"
-
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

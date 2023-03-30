@@ -45,12 +45,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.274">
-
-        <ImageView
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/duki3"
-            tools:ignore="ContentDescription" />
+            android:background="@color/Principal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.028"
+            app:lottie_autoPlay="true"
+            app:lottie_cacheComposition="true"
+            app:lottie_fileName="players.json"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_loop="true" />
+
+
 
 
     </androidx.cardview.widget.CardView>
@@ -72,21 +83,6 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <TextView
-        android:id="@+id/tvstatus2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/satoshiregular"
-        android:text="Duki ft khea"
-        android:textColor="@color/secundario"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
-
-    <TextView
         android:id="@+id/nameTrack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -96,10 +92,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672" />
+        app:layout_constraintVertical_bias="0.651" />
 
     <ImageView
         android:id="@+id/imageView25"
@@ -148,18 +144,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.875"
         app:srcCompat="@drawable/shuffle" />
-
-    <ImageView
-        android:id="@+id/imageView29"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.884"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701"
-        app:srcCompat="@drawable/musiclike" />
 
     <ImageView
         android:id="@+id/imageView30"

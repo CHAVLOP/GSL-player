@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class Reproductor extends AppCompatActivity {
     ImageView volver;
-    ImageView pause, repet;
+    ImageView pause;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,6 @@ public class Reproductor extends AppCompatActivity {
         setContentView(R.layout.activity_reproductor);
         volver = findViewById(R.id.volver);
         pause = findViewById(R.id.pause);
-        repet = findViewById(R.id.repet);
         volver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,12 +28,6 @@ public class Reproductor extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 pause.setImageResource(R.drawable.ic_play);
-            }
-        });
-        repet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                repet.setImageResource(R.drawable.ic_repetir1);
             }
         });
     }
